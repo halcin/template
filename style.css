@@ -1,0 +1,112 @@
+:root {
+  --primary-100: rgba(221, 236, 250, 0.4);
+  --primary-200: #A9D1F2;
+  --primary-300: #54A2E4;
+  --primary-400: #1B75BC;
+  --primary-500: #134B7B;
+  --primary-600: #0A263D;
+  --pink-100: #FAD4E5;
+  --pink-200: #F8C5DC;
+  --pink-300: #F18CBA;
+  --pink-400: #EF5BA1;
+  --pink-500: #BC1762;
+  --pink-600: #5E0B31;
+  --grey-100: #DDE2E5;
+  --grey-200: #C7CED4;
+  --grey-300: #8F9DA9;
+  --grey-400: #4A4A4A;
+  --grey-500: #3E4850;
+  --grey-600: #1F2428;
+  --orange-100: #FFE5C9;
+  --orange-200: #FFD4A5;
+  --orange-300: #FFA94A;
+  --orange-400: #F58220;
+  --orange-500: #9F5300;
+  --orange-600: #502A00;
+  --blue-100: #DEF6FD;
+  --blue-200: #ACE9FB;
+  --blue-300: #59D3F7;
+  --blue-400: #00C0F3;
+  --blue-500: #077D9F;
+  --blue-600: #043E50;
+  --green-100: #E5F6D9;
+  --green-200: #CBECB3;
+  --green-300: #96D868;
+  --green-400: #62BB46;
+  --green-500: #43771F;
+  --green-600: #223C0F;
+  --red-100: #FCDDD7;
+  --red-200: #F9BAAE;
+  --red-300: #F2745D;
+  --red-400: #EF4123;
+  --red-500: #99220C;
+  --red-600: #4D1106;
+  --yellow-100: #FFF5CD;
+  --yellow-200: #FFEA9B;
+  --yellow-300: #FFE069;
+  --yellow-400: #FFCB05;
+  --yellow-500: #A88501;
+  --yellow-600: #574501;
+  --white: #FFFFFF;
+  --light: #E5E9EB;
+  --lighter: #F3F5F6;
+  --base: #BDBDBD;
+  --secondary: #8F8F8F;
+  --active: rgba(0,0,0, .56);
+  --var-1: #05BAEE;
+  --var-2: #1D70B7;
+  --var-3: #EE7D00;
+  --var-4: #812F81;
+  --var-5: #65B22E;
+  --var-6: #E53212;
+  --var-7: #FFCB00;
+  --var-8: #E95296;
+  --base-font-size: 13px;
+  --animation-time: .3s;
+  --base-lineHeight: 12px;
+  --grid-columns: 12;
+  --grid-row-gap: 24px;
+  --grid-column-gap: 32px;
+  --radius-100: 2px;
+  --radius-200: 4px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --margin-4: 4px;
+  --margin-8: 8px;
+  --margin-12: 12px;
+  --margin-16: 16px;
+  --margin-24: 24px;
+  --margin-32: 32px;
+  --active: #000000;
+}
+
+.nav {
+  width: 100%;
+  height: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-flex;
+}
+.nav .nav__link {
+  font-size: 15px;
+  padding-left: 30px;
+}
+.nav .nav__link .nav__link--purple {
+  color: #a5b4fc;
+}
+
+.header {
+  width: 100%;
+  height: 50%;
+  background-image: url("asset/image/elgant-flamenco-dancer.png");
+  background-size: 100% 100%
+}
+
+/*# sourceMappingURL=style.css.map */
